@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# Seccion
+En esta sección se estarán haciendo Custom Hooks
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Enlaces
+[Structurig projects and naming components in react](https://hackernoon.com/structuring-projects-and-naming-components-in-react-1261b6e18d76)
 
-## Available Scripts
+[Forma recomentada de estructurar proyectos en react](https://es.reactjs.org/docs/faq-structure.html)
 
-In the project directory, you can run:
 
-### `yarn start`
+## Helpers
+Son funciones que hacen cierto trabajo específico, puede recibir unos argumentos y retornar algo. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Custom hooks
+* No es más que una forma de extraer logica de un componente, o logica que quiero reutilizar de forma que sea sencillo volver a utilizarlo. 
+* Para crearse un custom hook se recomienda crear un nuevo directorio en src llamado hooks. 
+* el prefijo use no es obligatorio, pero es un estándar para que entre los desarrolladores sepamos que son hooks. 
+* los hooks no son más que funciones. 
+* los custom hooks funcionan como si fueran functional components... Pueden usar reducer, pueden usar contextos,...
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Animaciones por css
+[Animate](https://animate.style/)
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Codigo de la seccion
+[Seccion 6](https://github.com/Klerith/react-giphy-app/releases/tag/v0.6.0)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## ¿Por qué no se puede abrir los archivos del build así no más?
+Porque tiene varios imports y eso solo puede ser entendido por un servidor de aplicaciones. 

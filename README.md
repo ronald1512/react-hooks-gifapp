@@ -29,3 +29,23 @@ Son funciones que hacen cierto trabajo específico, puede recibir unos argumento
 
 ## ¿Por qué no se puede abrir los archivos del build así no más?
 Porque tiene varios imports y eso solo puede ser entendido por un servidor de aplicaciones. 
+
+
+## Enzyme
+Enzyme: Creada por AirBnB.
+
+* Sirve para testear los componentes de react.
+* Ahora es mantenida por el equipo de Facebook
+* Documentación oficial: https://enzymejs.github.io/enzyme/
+* `npm install --save-dev @wojtekmaj/enzyme-adapter-react-17`   --> Enzyme para la version 17 de react: https://github.com/wojtekmaj/enzyme-adapter-react-17 
+* `npm install --save-dev enzyme`
+* `npm install --save-dev enzyme-to-json` -->https://www.npmjs.com/package/enzyme-to-json
+* si despues de escribir toMatchSnapshot() en una prueba y en el archivo generado hay algo como shallowSnapshot en lugar de el html, significa que no está bien configurado el enzyme to json
+
+
+## Librería para probar hooks
+[react-hooks-testing-library](https://react-hooks-testing-library.com/)
+
+
+## Codigo de la seccion
+[seccion 8](https://github.com/Klerith/react-gifexpertapp/releases/tag/v0.8.0)
